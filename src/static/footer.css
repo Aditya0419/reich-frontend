@@ -1,0 +1,119 @@
+
+  .left-section {
+    margin-left: 10px;
+  }
+  
+  .logo-container img {
+    width: 100px;
+  }
+  
+  .reich-description {
+    color: #aaa;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-left: 10px;
+  }
+  
+  .social-icon-box {
+    width: 50px;
+    height: 50px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+    border-radius: 50%;
+  }
+  
+  .email-section .email-heading {
+    font-size: 18px;
+  }
+  
+  .email-section .email-subtext {
+    color: grey;
+  }
+  
+  .email-input {
+    color: #fff;
+    border: 1px solid #fff;
+  }
+  
+  .email-btn {
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .footer-heading {
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  .footer-list li {
+    color: grey;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-list .arrow {
+    margin-right: 5px;
+    color: grey;
+  }
+  
+  .footer-contact li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .green-dot {
+    height: 10px;
+    width: 10px;
+    background-color: green;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .contact-description {
+    display: flex;
+    align-items: center;
+  }
+  
+  .vertical-line {
+    height: 50px;
+    width: 2px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-right: 10px;
+  }
+  /* Reduce Arrow Size */
+.footer-list .arrow {
+  font-size: 12px;
+}
+
+/* Vertical line under "Contact Us" */
+.contact-description .vertical-line {
+  height: 40px;
+  background-color: #777; /* Adjust color */
+}
+
+/* Footer bottom line */
+.footer-bottom {
+  position: relative;
+}
+
+.footer-bottom .line {
+  background-color: rgba(255, 255, 255, 0.2);
+  position: absolute;
+  top: 50%;
+  height: 1px;
+}
+
+.footer-bottom .line.left {
+  left: 5%;
+  width: 40%;
+}
+
+.footer-bottom .line.right {
+  right: 5%;
+  width: 40%;
+}
